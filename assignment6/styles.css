@@ -1,0 +1,33 @@
+body {
+    background-color: #ff6347
+  }
+  
+  .center-box {
+    width: 225px;
+    height: 225px;
+    background-color: #f5deb3;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    box-sizing: border-box;
+  }
+  
+  .center-box__inner-box {
+    width: 45px;
+    height: 45px;
+    background-color: #008080;
+    border: 3px solid white;
+  }
+  
+  .center-box__inner-box:nth-child(2) {
+    width: 185px;
+    border-style: dashed;
+  }
+  
+  .center-box__inner-box:first-child,
+  .center-box__inner-box:nth-child(2) {
+    margin-bottom: 15px;
+  }
